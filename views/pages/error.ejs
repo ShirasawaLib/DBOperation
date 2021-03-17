@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>エラーページ</title>
+</head>
+<body>
+    <h1>エラーが発生しました。</h1>
+    <% if(errorMessage) { %>
+    <ul>
+        <% for (let n in errorMessage) { %>
+        <li>
+            <%= errorMessage[n].msg %>
+        </li>
+        <% } %>
+    </ul>
+    <% } %>
+</body>
+ 
+</html>

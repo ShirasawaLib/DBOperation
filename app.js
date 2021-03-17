@@ -66,9 +66,8 @@ app.post(
 				} else {
 					//クエリの定義
 					const query = {
-						text: 'INSERT INTO read(email,firstname,lastname,company) VALUES($1, $2, $3, $4)',
-						values: [req.body.email, req.body.first_name, req.body.last_name, req
-							.body.company
+						text: 'INSERT INTO read(email,first_name,last_name,company) VALUES($1, $2, $3, $4)',
+						values: [req.body.email, req.body.first_name, req.body.last_name, req.body.company
 						],
 					}
 

@@ -1,5 +1,3 @@
-# DBOperation
-
 # 機能について
 2つの機能を保持しています。
 1.DBにレコードを追加するAPI(Postリクエスト時)
@@ -24,13 +22,13 @@ https://jp.heroku.com/free
 
 2.Heroku PostgresDBのアドオンを追加する。
 アプリケーションを新規追加し、アドオンを追加する。
-DBOperation001の画像
+![DBOperation001](https://user-images.githubusercontent.com/78066183/111474086-05998980-876f-11eb-80ab-f62ac36f2bb7.png)
 
 3.Heroku PostgresDBの接続情報を取得する。
-DBOperation002の画像
+![DBOperation002](https://user-images.githubusercontent.com/78066183/111474171-1cd87700-876f-11eb-9202-b45a3d74d3fe.png)
 
 4.このプロジェクトをクローンする。
-DBOperation003の画像
+![DBOperation003](https://user-images.githubusercontent.com/78066183/111474178-1f3ad100-876f-11eb-92ca-a53478820d08.png)
 
 5.アプリケーションにこのプロジェクトをデプロイする。
 デプロイは以下参照。
@@ -52,14 +50,14 @@ https://devcenter.heroku.com/ja/articles/config-vars
 
 7.アプリケーションを実行。
 OpenAppのボタンをクリックすると、URLが取得できる。
-DBOperation004の画像
+![DBOperation004](https://user-images.githubusercontent.com/78066183/111474181-206bfe00-876f-11eb-97dd-f859c21d0295.png)
 
 ブラウザからアクセスすると、Getリクエストになるため、あなたのネットワークのグローバルIPアドレスが表示される。
-DBOperation005の画像
+![DBOperation005](https://user-images.githubusercontent.com/78066183/111474183-219d2b00-876f-11eb-902a-5a6ebc5b5fd3.png)
 
 PostmanなどでPostリクエストを送ると、Emailが空では無い場合のみDBにレコードが追加される。
-DBOperation006の画像
-DBOperation007の画像
+![DBOperation006](https://user-images.githubusercontent.com/78066183/111474189-22ce5800-876f-11eb-9380-eb95dbb8ce4c.png)
+![DBOperation007](https://user-images.githubusercontent.com/78066183/111474194-23ff8500-876f-11eb-8b55-527f08b72e0e.png)
 
 DBの確認はDBeaverを使っており、DBToolが決まってないなら使用をオススメしたい。
 https://dbeaver.io/
